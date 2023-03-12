@@ -41,6 +41,11 @@ namespace IfElse
             //string str = number%2 == 0 ? "짝수" : "양수";       //[조건연산자]로 가능하면 이걸로 사용. 더 빠르다. 코딩테스트 단골
             Console.WriteLine(number % 2 == 0 ? "짝수" : "양수");
             //0313 집에서 확인
+            //VISUAL STUDIO에서 확인
+            int int3 = 0;
+            //ddd
+
+
         }
     }
 }
