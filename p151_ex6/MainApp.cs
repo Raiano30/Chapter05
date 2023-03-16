@@ -19,7 +19,7 @@ namespace p151_ex6
             string str3 = Console.ReadLine();
             int score = Int32.Parse(str3);
 
-            if (grade < 4)
+            if (grade < 4 && grade > 0)
             {
                 if (score >= 60 && score <= 100)
                 {
@@ -34,7 +34,7 @@ namespace p151_ex6
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요");
                 }
             }
-            else
+            else if(grade == 4)
             {
                 if (score >= 70 && score < 100)
                 {
@@ -48,6 +48,10 @@ namespace p151_ex6
                 {
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요");
                 }
+            }
+            else
+            {
+                Console.WriteLine("학년을 잘못입력하셨습니다. 확인 후 다시 입력해주세요.");
             }
         }
     }

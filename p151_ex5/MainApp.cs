@@ -22,7 +22,9 @@ namespace p151_ex5
 
             int max;
             int min;
-            if(int1 > int2 && int1 > int3)
+            int sum = int1 + int2 + int3;
+            int aver = (int1 + int2 + int3) / 3;
+            if (int1 > int2 && int1 > int3)
             {
                 max = int1;
                 if(int2 < int3)
@@ -34,7 +36,7 @@ namespace p151_ex5
                     min = int3;
                 }
                 Console.WriteLine($"입력하신 {int1}, {int2}, {int3} 중 최대값은 {max}이며, 최소값은 {min}입니다.");
-                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {int1 + int2 + int3}이며, 평균은 {(int1 + int2 + int3) / 3}입니다. ");
+                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {sum}이며, 평균은 {aver}입니다. ");
             }
             else if(int2 > int1 && int2 >int3)
             {
@@ -48,7 +50,7 @@ namespace p151_ex5
                     min = int3;
                 }
                 Console.WriteLine($"입력하신 {int1}, {int2}, {int3} 중 최대값은 {max}이며, 최소값은 {min}입니다.");
-                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {int1 + int2 + int3}이며, 평균은 {(int1 + int2 + int3) / 3}입니다. ");
+                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {sum}이며, 평균은 {aver}입니다. ");
             }
             else
             {
@@ -62,7 +64,7 @@ namespace p151_ex5
                     min = int2;
                 }
                 Console.WriteLine($"입력하신 {int1}, {int2}, {int3} 중 최대값은 {max}이며, 최소값은 {min}입니다.");
-                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {int1 + int2 + int3}이며, 평균은 {(int1 + int2 + int3) / 3}입니다. ");
+                Console.WriteLine($"입력하신 {int1}, {int2}, {int3}의 합은 {sum}이며, 평균은 {aver}입니다. ");
             }
         }
     }
