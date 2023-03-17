@@ -52,6 +52,7 @@ namespace ForFor
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine("while문으로 작성");
             //    *
             //   **
             //  ***
@@ -145,6 +146,34 @@ namespace ForFor
             //     ***
             //      *
             //
+
+            int ii = 0;
+            while(ii < 5)
+            {
+                int jj = 0;
+                while (jj <= ii)
+                {
+                    Console.Write("*");
+                    jj++;
+                }
+                Console.WriteLine();
+                ++ii;
+            }
+
+
+            int r = 5;
+            do
+            {
+                int z = 0;
+                while (z < r) //5,4,3,2,1
+                {
+                    Console.Write("*");
+                    z++;
+                }
+                Console.WriteLine();
+                r--;
+            }
+            while (r > 0); //5헁
 
         }
     }
