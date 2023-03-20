@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC432549-B774-4DAB-BA8C-8877550041A2}</ProjectGuid>
+    <ProjectGuid>{E416B82B-ACEB-45B9-9D24-BE0FEAB5AB3A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LeeHyeRan_ex1</RootNamespace>
-    <AssemblyName>LeeHyeRan_ex1</AssemblyName>
+    <RootNamespace>ATEST</RootNamespace>
+    <AssemblyName>ATEST</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeeHyeRan_ex1
+namespace LeeHyeRan_ex3
 {
     class Program
     {
-        static void Main(string[] args) //문제1
+        static void Main(string[] args)
         {
+            //while문, do문
 
         }
     }

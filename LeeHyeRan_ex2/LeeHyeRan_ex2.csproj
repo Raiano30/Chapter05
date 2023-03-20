@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC432549-B774-4DAB-BA8C-8877550041A2}</ProjectGuid>
+    <ProjectGuid>{ABEF088B-AC1C-4DC5-87F0-B5E6D82BE5C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LeeHyeRan_ex1</RootNamespace>
-    <AssemblyName>LeeHyeRan_ex1</AssemblyName>
+    <RootNamespace>LeeHyeRan_ex2</RootNamespace>
+    <AssemblyName>LeeHyeRan_ex2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
