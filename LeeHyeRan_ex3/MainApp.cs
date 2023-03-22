@@ -25,6 +25,9 @@ namespace LeeHyeRan_ex3
             }
 
 
+
+
+
             int r = 5;
             do
             {
