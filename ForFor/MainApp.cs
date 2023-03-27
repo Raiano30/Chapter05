@@ -10,7 +10,7 @@ namespace ForFor
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++) //행이 5개
+            for (int i = 0; i < 5; i++) //행이 5개 1,2,3,4,5
             {
                 for (int j = 0; j <= i; j++) //행이 늘어나는 만큼 별도 늘어남//1,2,3,4,5
                 {
@@ -25,7 +25,7 @@ namespace ForFor
             //*****
             Console.WriteLine();
 
-            for (int i = 0; i < 5; i++) //행이 5개
+            for (int i = 0; i < 5; i++) //행이 5개 1,2,3,4,5
             {
                 for (int j = 0; j < 5-i; j++) //행이 늘어나는 만큼 별도 늘어남//1,2,3,4,5
                 {
